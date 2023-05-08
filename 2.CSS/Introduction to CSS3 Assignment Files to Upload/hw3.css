@@ -1,0 +1,123 @@
+body {
+    padding: 10px;
+    margin: 1%;
+}
+
+header {
+    background-color: #848E66;
+    background-image: url("../Images/image1.png");
+    background-size:100%;
+    padding:20px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2{
+    font-size: 170%;
+    font-weight: bold;
+}
+
+nav a{
+    display: inline-block;
+    margin: 1%;
+    vertical-align: middle;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    -o-border-radius: 5;
+    border-radius: 5px;
+
+    text-decoration: none;
+    padding: 2%;
+
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(218,234,213,0.60);
+    width:150px;
+    height: 20px;
+}
+
+.active {
+    background-color: #FFFFFF;
+}
+
+.left {
+    background-color: #848E66;
+    width: 24%;
+    float:left;
+    padding: 5% 0;
+}
+
+.right {
+    width:74%;
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.left img {
+    border: solid 1px #000000;
+    width: 80%;
+    margin: 10%;
+} 
+table{
+    margin: 3.5% ;
+    font-family: serif;
+    font-weight: inherit;
+    padding: 2px;
+}
+
+th{
+    background-color:#806517 ;
+    color: #FFFFFF;
+    border-radius: 6%;
+    padding: 6px;
+    text-align: left;
+    border-bottom:thick;
+
+}
+/* I have centered the alignment for column 2 and column 3 below */
+
+tr{
+    background-color:#F3E5AB ;
+    height: 3.9vh;
+    opacity: 0.6;
+    font-family: serif;
+
+
+}
+/* Here I've fixed the hovering issue in rows. Now opacity changes on hovering */
+tr:hover{
+    font-weight: bolder;
+    transition: 0.25s linear ; 
+    opacity: 0.8;
+}
+td{
+    font-family: serif;
+    background-color: #C9BE62;
+    padding: 3px;
+    font-size: bold;
+   
+}
+td:nth-child(1){
+   }
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3){
+    text-align: center;
+}
+
+th:nth-child(2){
+    text-align: center;
+
+}
+th:nth-child(3){
+    text-align: center;
+    padding: 10px;
+}
